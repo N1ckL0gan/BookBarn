@@ -1,0 +1,132 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #BD897E;
+    padding: 1px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #454545;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    align-items: flex-start;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 5px;
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-container input {
+    padding: 5px;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #d8dcff
+}
+
+.container {
+    position: relative;
+    color: rgb(0, 0, 0);
+  }
+  
+  #Background{
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+#Promos {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #4C6A6D;
+}
+
+.Banner {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: auto;
+}
+
+#Showcase{
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 25px;
+                box-sizing: border-box;
+                background-color: #95A78D;
+                text-align: center;
+            }
+            .book {
+                display: flex;
+                align-items: center;
+                padding: 50px;
+                border-bottom: 1px solid #ccc;
+            }
+     footer {
+                display: start;
+                justify-content: space-between;
+                align-items: center;
+                background-color: black;
+                color: #4C6A6D;
+                padding: 10px 20px;
+     }
